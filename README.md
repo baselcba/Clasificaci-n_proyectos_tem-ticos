@@ -4,7 +4,7 @@
 
 Este proyecto implementa un pipeline en **R** para la **clasificación temática automática de proyectos de investigación**, a partir del análisis de texto no estructurado contenido en sus títulos, palabras clave y campos descriptivos.
 
-El objetivo es identificar qué **área temática prioritaria** aborda cada proyecto, utilizando un enfoque basado en **diccionarios de palabras clave** y reglas explícitas de decisión.
+El objetivo es identificar qué **área temática prioritaria** aborda cada proyecto, utilizando un enfoque basado en diccionarios de palabras clave y reglas explícitas de decisión.
 
 ---
 
@@ -31,7 +31,7 @@ Esto permite detectar coincidencias independientemente de cómo estén escritas.
 ### 2. Definición del diccionario temático
 Se definieron **8 áreas temáticas**, cada una representada por un conjunto de entre 10 y 15 palabras clave.
 
-Las palabras clave fueron seleccionadas a partir del análisis exploratorio del **corpus real de títulos y palabras clave de proyectos**, priorizando términos frecuentes y discriminantes por área, e ignorando clasificaciones administrativas preexistentes.
+Las palabras clave fueron seleccionadas a partir del análisis exploratorio del corpus real de títulos y palabras clave de proyectos, priorizando términos frecuentes y discriminantes por área.
 
 Las áreas consideradas son:
 1. Innovación tecnológica aplicada a los principales sectores productivos  
@@ -66,3 +66,7 @@ data_raw/Base_Proyectos_Consolidada.xlsx
 4. El archivo clasificado se generará en:
 
 ´data_processed/Base_Proyectos_Clasificada.xlsx
+
+## Datos sensibles 
+
+Las bases de datos originales y procesadas no se incluyen en el repositorio por contener información sensible
