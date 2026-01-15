@@ -1,7 +1,4 @@
----
-title: "README"
-output: html_document
----
+
 
 # Clasificación temática automática de proyectos de investigación
 
@@ -11,7 +8,7 @@ El objetivo es identificar qué **área temática prioritaria** aborda cada proy
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 - Filtrar una base de proyectos a partir de su contenido textual.
 - Asignar a cada proyecto una o más **áreas temáticas prioritarias**.
@@ -20,7 +17,7 @@ El objetivo es identificar qué **área temática prioritaria** aborda cada proy
 
 ---
 
-## 🧠 Metodología
+##  Metodología
 
 ### 1. Normalización del texto
 Todo el texto es normalizado mediante:
@@ -59,9 +56,9 @@ Para cada proyecto:
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
-## ▶️ Uso
+##  Uso
 
 1. Colocar la base original en:
 data_raw/Base_Proyectos_Consolidada.xlsx
