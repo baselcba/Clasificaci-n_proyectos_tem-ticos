@@ -65,11 +65,9 @@ Para cada proyecto:
 
 1. Colocar la base original en:
 data_raw/Base_Proyectos_Consolidada.xlsx
-
-java
-Copiar código
 2. Abrir el proyecto en RStudio (`.Rproj`)
-3. Ejecutar el script principal: `r` `source("main.R")`
+3. Ejecutar el script principal:
+`r` `source("main.R")`
 4. El archivo clasificado se generará en:
 
 ´data_processed/Base_Proyectos_Clasificada.xlsx
