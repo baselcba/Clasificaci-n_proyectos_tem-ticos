@@ -58,8 +58,6 @@ Para cada proyecto:
 
 ##  Estructura del proyecto
 
-##  Uso
-
 1. Colocar la base original en:
 data_raw/Base_Proyectos_Consolidada.xlsx
 2. Abrir el proyecto en RStudio (`.Rproj`)
